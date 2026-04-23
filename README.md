@@ -37,6 +37,7 @@ value-based care programs like the Hospital Readmissions Reduction Program (HRRP
 
 Star schema with one fact table and three dimension tables:
 FactReadmissions (Unplanned_Hospital_Visits-Hospital)
+
 ├── DimFacility (Hospital_General_Information) — on Facility ID
 
 └── DimCondition (manual lookup table) — on Measure ID
